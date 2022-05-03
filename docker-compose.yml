@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+
+  msia_pay_gap_bot:
+    tty: true
+    build: ./msia_pay_gap_bot
+
+networks:
+  backend:

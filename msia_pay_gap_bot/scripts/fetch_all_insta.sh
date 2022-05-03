@@ -1,0 +1,2 @@
+instaloader --login=$USERNAME --password=$PASSWORD profile malaysianpaygap --dirname-pattern={profile} --no-profile-pic --no-pictures --post-metadata-txt="Caption: {caption}\n{likes} likes\n{comments} comments\n" --filename-pattern={date_utc:%Y}/{shortcode} 
+#instaloader --login=$USERNAME --password=$PASSWORD profile malaysianpaygap --dirname-pattern={profile} --comments --no-profile-pic --post-metadata-txt="Caption: {caption}\n{likes} likes\n{comments} comments\n" --filename-pattern={date_utc:%Y}/{shortcode} 
